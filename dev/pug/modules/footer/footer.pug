@@ -1,0 +1,63 @@
+mixin footerNavLink(link, text)
+    li.footer-nav__item
+    a(href=link).footer-nav__link=text
+
+footer.footer
+    .footer__main
+        .container
+            .footer__navigation
+                .footer__item
+                    u1.footer-nav
+                        +footerNavLink('','Таблетки')
+                        +footerNavLink('','Микстуры')
+                        +footerNavLink('','Халаты')
+                        +footerNavLink('','Для йоги')
+                        +footerNavLink('','Уколы')
+                        +footerNavLink('','Бинты')
+                        +footerNavLink('','Кардио стимуляторы')
+                .footer__item
+                    u1.footer-nav
+                        +footerNavLink('','Об аптеке')
+                        +footerNavLink('','Заказ')
+                        +footerNavLink('','Гарантии')
+                        +footerNavLink('','Акции')
+                        +footerNavLink('','Новости')
+                        +footerNavLink('','Отзывы')
+                .footer__item
+                    u1.footer-nav
+                        +footerNavLink('','Контакты')
+                        +footerNavLink('','Вопросы и ответы')
+                        +footerNavLink('','Карта сайта')
+
+                    span.footer__address Аптека №1: ул. Победы 85 (корпус 17)
+                    span.footer__address Аптека №2: ул. Студенческая, 14 (корпус 4)
+                    span.footer__address Аптека №3: Народный бульвар, 21 (корпус 19)
+            .footer__contacts
+                .footer__phones
+                    a(href="tel:4722301096").footer__phone (4722) 30-10-96
+                    span.footer__text Звонок бесплатный
+                    span.footer__text 8 (333) 333-33-33
+                a(href="mailto:bsu@apt.ru").footer__mail bsu@apt.ru
+
+    .footer__socials
+        .container
+            u1.socials
+                li.socials__item
+                    a(href="").socials__link
+                        img(src="static/images/general/socials/instagram.svg" alt="Иконка Instagram").socials__icon
+                        span.socials__name Instagram
+                li.socials__item
+                    a(href="").socials__link
+                        img(src="static/images/general/socials/facebook.svg" alt="Иконка facebook").socials__icon
+                        span.socials__name Facebook
+                li.socials__item
+                    a(href="").socials__link
+                        img(src="static/images/general/socials/vk.svg" alt="Иконка Вконтакте").socials__icon
+                        span.socials__name Вконтакте
+            .yandex-market
+                img(src="static/images/general/yandex.svg" alt="Иконка Yandex Market").socials__icon
+                a(href="").btn.btn--small.btn--transparent-gray.btn--inline Оставить отзыв
+    .footer__bottom
+        .container
+            span.copyright "Аптека БелГУ" 2019. Все права защищены. Информация сайта защищена законом об авторских правах.
+            a(href="").footer__personal-data Политика обработки персональных данных

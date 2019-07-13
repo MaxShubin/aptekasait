@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: local('Open Sans Light'), local('Open Sans Light'),
+  url("../fonts/open-sans-light/opensans-light.woff2")format('woof2'),
+  url("../fonts/open-sans-light/opensans-light.woff")format('woof'),
+  url("../fonts/open-sans-light/opensans-light.ttf")format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: local('Open Sans'), local('Open Sans'),
+  url("../fonts/open-sans-regular/opensans-regular.woff2")format('woof2'),
+  url("../fonts/open-sans-regular/opensans-regular.woff")format('woof'),
+  url("../fonts/open-sans-regular/opensans-regular.ttf")format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: local('Open Semi Bold'), local('Open Semi Bold'),
+  url("../fonts/open-sans-semibold/open-sans-semibold.woff2")format('woof2'),
+  url("../fonts/open-sans-semibold/open-sans-semibold.woff")format('woof'),
+  url("../fonts/open-sans-semibold/open-sans-semibold.ttf")format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: local('Open Sans Bold'), local('Open Sans Bold'),
+  url("../fonts/open-sans-light/opensans-bold.woff2")format('woof2'),
+  url("../fonts/open-sans-light/opensans-bold.woff")format('woof'),
+  url("../fonts/open-sans-light/opensans-bold.ttf")format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}

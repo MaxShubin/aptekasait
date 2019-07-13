@@ -1,0 +1,45 @@
+section.s-information.s-light-bg
+    .container
+        .information
+            .information-item
+                .information-item__header
+                    h1.title-section Новости
+                .information-item__body
+                    .new-prev__wrapper
+                        a(href="").news-prev
+                            .news-prev__img(style="background-image:url" +
+                            "('static/images/content/news/news-1/prev.png')")
+                            .news-prev__body
+                                span.news-prev__title Акция на товар
+                                span.news-prev__date 11 июля 2019
+                    a(href="").news-prev
+                            .news-prev__img(style="background-image:url" +
+                            "('static/images/content/news/news-2/prev.png')")
+                            .news-prev__body
+                                span.news-prev__title Акция на товар
+                                span.news-prev__date 31 июля 2019
+                .information-item__footer
+                    a(href="").information-item__link Все новости
+            .information__item
+                .information-item__header
+                    h2.title-section Отзывы
+                .information-item__body
+                    .review-prev
+                        p.review-prev__text Хороший ассортимент и доступные цены
+                        span.review-prev__author Григорий
+                .information-item__footer
+                    a(href="").information-item__link Все отзывы
+            .information__item
+                .information-item__header
+                    h2.title-section Бренды
+                .information-item__body
+                  .brands__wrapper
+                        u1.brands__list
+                          each brand in [{img:'aktiva',name:'AKTIVA'},{img:'bioteh',name:'BIOTEH'},{img:'vmin',name:'VMIN'},{img:'bioton',name:'bioton'},{img:'kma',name:'KMA'},{img:'r-pharm',name:'r-pharm'}]
+                              li.brands__item
+                                a(href="").brand
+                                  img(src=`static/images/content/brands/${brand.img}.jpg`).brand__img
+                                  span.brand__name=brand.name
+                .information-item__footer
+                    a(href="").information-item__link Все бренды
+                    span.information-item__count (9)
